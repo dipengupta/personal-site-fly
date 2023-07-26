@@ -1,0 +1,15 @@
+how to make a new proejct from scratch:
+
+1. Setup django:
+    django-admin startproject <name>
+    python manage.py startapp <appName>
+
+    update: {urls.py, settings.py -> allowed hosts, apps}
+    make: (inside app folder) {template folder, header.html, urls.py}
+
+2. Add bootstrap:
+    I just downloaded the compiled files and copied them over here
+
+3. read this to know how to deploy on Heroku: https://realpython.com/django-hosting-on-heroku/#step-6-create-a-heroku-app
+
+4. read this to know how to deploy on Vercel https://www.makeuseof.com/django-app-vercel-host-free/
